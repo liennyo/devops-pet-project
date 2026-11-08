@@ -1,0 +1,9 @@
+2026-11-08 10:05:00 INFO Started
+2026-11-08 10:05:05 ERROR Missed Connection
+2026-11-08 10:05:10 WARN Request /api/users ok
+2026-11-08 10:05:15 ERROR Slow 800ms
+2026-11-08 10:05:20 INFO Request /api/users ok
+2026-11-08 10:05:25 WARN High memory usage
+2026-11-08 10:05:30 ERROR HTTP 500 on /api/pay
+2026-11-08 10:05:35 INFO Request /api/pay ok 
+2026-11-08 10:05:00 INFO Healthcheck ok
