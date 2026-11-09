@@ -19,7 +19,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd devops-pet-project
-          git pull origin main
+          git fetch --all
+          git reset --hard origin/main
           cd app
           sudo docker build -t my-app .
           sudo docker stop my-app || true
